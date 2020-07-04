@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto 👾</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body{
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    div{
+      border-radius: 16px;
+      box-shadow: 21px 17px 96px -31px rgba(0,0,0,0.28);
+      text-align: center;
+      height: auto;
+      width: auto;
+      padding: 20px 40px;
+    }
+    h1{
+      font-weight: 600;
+    }
+    p{
+      width: 650px;
+      font-weight: 400;
+    }
+    input{
+      background-color: gold;
+      font-size: 14px;
+      height: 25px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="muestra">
+    <h1>Plíndromo 🤔</h1>
+    <p id="texto">f. Palabra o frase cuyas letras están dispuestas de tal manera que resulta la misma leída de izquierda a derecha que
+    de derecha a izquierda. 🤯</p>
+    <form>
+      <input value="¡ Intentalo de nuevo !" onclick="history.go(0)" type="button">
+    </form>
+  </div>
+  <script src="./index.js" defer></script>
+</body>
+</html>
